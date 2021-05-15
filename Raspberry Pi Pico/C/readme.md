@@ -90,6 +90,13 @@ Select okay for the defaults
 the project will open, now run the project and  select the terminal tab and then run tio /dev/ttyACM0
 that should work as did the previous example.
 
-You should be able to make changes and run the codde, this should now install the correct files into the Pico automatically
+You should be able to make changes and run the code, this should make the file.
+I still had to put the Pico into the boot state and copy the .uf2 file to the Pico
+
+I found the name of the pico when it is plugged into the computer holding down the reset button, it acts like a usb stick then.
+copy the .uf2 file, example:
+ cp helloWorldC.uf2 /media/michael/RPI-RP2
+ 
+
 
 

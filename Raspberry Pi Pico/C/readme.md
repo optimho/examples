@@ -79,4 +79,17 @@ I have Tio emulator installed, to use this light weight emulator, just.
    tio /dev/ttyACM0
    ctrl -t q (the control and the t buttons followed by the q - Its a bit fiddely so persist)
    
-   
+```
+And Switch to clion
+```   
+I have Clion configured to work with the Raspberry Pico.
+Open Clion
+Open the project folder ~/picoC/helloWorldC
+Select okay for the defaults 
+
+the project will open, now run the project and  select the terminal tab and then run tio /dev/ttyACM0
+that should work as did the previous example.
+
+You should be able to make changes and run the codde, this should now install the correct files into the Pico automatically
+
+

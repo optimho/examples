@@ -3,7 +3,7 @@
 ## In Linux
 ### Get the SDK and the examples
 ```
-mkdir picoC
+mkdir picoC   ##make the directory in User/??/picoC
 cd picoC
 
 git clone -b master https://github.com/raspberrypi/pico-sdk.git

@@ -15,7 +15,7 @@ git clone -b master https://github.com/raspberrypi/pico-examples.git
 ### Get the compilers etc
 ```
 sudo apt update
-sudo apt install gcc-arm-none-eabi libnewlib-arm-none-eabi build-essential libssl-dev tk tkinter python3-tk
+sudo apt install gcc-arm-none-eabi libnewlib-arm-none-eabi build-essential libssl-dev tk python3-tk
 ```
 
 ### Build CMake from source
